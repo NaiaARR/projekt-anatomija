@@ -1,0 +1,75 @@
+styles.css
+/*osnovne postavke za tijelo stranice*/
+body{
+	font-family: Times new roman; sans-serif; /*Odabir fonta za cijelu stranicu*/
+	background-color: lavenderBlush; /*Pozadina stranice*/
+	color: indigo; /*Boja teksta*/
+	margin:0; /*Uklanjanje margina*/
+	padding:=; /*Ukidanje paddinga*/
+}
+
+/*Stiliziranje naslova*/
+
+h1{
+	text-align: center; /*Poravnanje naslova na sredinu*/
+	color: indigo; /*Boja nasova*/
+}
+/*Stilizacija forme*/
+form{
+	max-width:700px; /*Maksimalna širina forme*/
+	margin: 0 auto ; /*Centriranje forme */
+	padding: 100px; /* Padding unutar forme */
+	background-color: MistyRose; /* Boja pozadine forme*/
+	border: 5px solid #4B0082; /* Granica oko forme */
+	border-radius: 15px; /*Zaobljeni kutevi*/
+	box-shadow: 3 px;
+	
+	
+}
+/*Stiliziranje ulaznih polja*/
+input[type="text"],
+input[type="number"]
+{
+width: calc(100% - 20px); /* Širina ulaznog polja */
+padding: 10px; /* Unutarnji padding*/
+margin-bottom: 5px; /* Razmak ispod svakog ulaznog polja*/
+border: 1px solid  #4B0082; /*idgigo granica*/
+border-radius: 3px; /* Zaobljeni kutevi*/
+}
+ 
+input[type="text"]
+input[type="number"]:focus
+{
+width: calc(100% - 50); /*Širina ulaznog polja*/
+padding: 10px;/* Unutarnji padding*/
+margin-bottom: 5px;/* Razmak ispod svakog ulaznog polja*/
+border: 5px; red; /*red granica*/
+border-radius: 3px; /*zaobljeni kutevi*/
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus
+{
+border-color: red; /*Zadana granica*/
+outline: none; /* Uklanjnaje zadane granice*/
+box-shadow: 0 0 5px; /*sjena za efekt*/
+}
+
+button
+{	
+	color: Hotpink; /*boja gumbića*/
+	font-family: Times New Roman; /*Odabir fonta za gumbić */
+	background-color: indigo; /* Boja Gumbića */
+	border-color: indigo; /*boja okvira gumbića*/
+	cursor: pointer; /* promjena kursora na ruku*/
+	border-radius: 7px;/* zaobljeni kutevi gumbića*/
+	font-size: 16px; /* Veličina fonta gumbića*/
+	transition: background-color 0.3s ease-in-out;
+
+}
+
+button:hover
+{
+	background-color:indigo; /*sintaksu koju smo dodali da možemo promjeniti boju gumba kad hoveramo preko njega*/
+}
+	

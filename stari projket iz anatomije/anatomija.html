@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+ <html lang= "hr">
+   <head>
+      <meta charset= "UTF-8">
+      <meta name="viewpoint" content="width=device-width, initial scale="1.0">
+      <title> KOSTI ČOVJEKA</title>
+	 <link rel="stylesheet"href="styles.css">
+    </head>
+	
+	 <h1> ANATOMIJA </h1> 
+	 <p> Anatomija čovjeka znanost je o građi ljudskoga tijela.<br/>Dijeli se na nekoliko grana:
+	 <ul>
+	 <li>SUSTAVNA ANATOMIJA </li>
+	 <p> proučava skup organa koji čine jednu funkcionalnu cjelinu (organski sustav, npr. probavni, živčani i dr.)</p>
+	 <li> TOPOGRAFSKA NATOMIJA </li>
+	 <p> međusobne odnose pojedinih anatomskih tvorbi u određenome području, bez obzira na to kojemu sustavu pripadaju (npr. u pazuhu, na postraničnoj strani vrata i dr.) </p>
+	 <li> RENDGENSKA ANATOMIJA </li>
+	 <p> proučava oblik i položaj pojedinih anatomskih struktura u živa čovjeka s pomoću rendgenskoga zračenja.</p>
+	 </ul>
+	 
+<body>
+<h1 style="color:indigo;">POPIS KOSTIJU</h1>
+
+<form id="kostiForm">
+   <h1> POPIS KOSTIJU </h1>
+   <label for="nazivKostiju"> Naziv kostiju: </label>
+   <input type="text" id= "nazivKosta" required><br><br>
+
+   <label for="grupaKostiju"> Grupa kostiju:</label>
+   <input type="text" id="grupaKostiju" required><br><br>
+   
+   <label for="količinaKostiju"> Količina kostiju: </label>
+   <input type="number" id="koločinaKostiju" required><br><br>
+  
+   <button type="submit"> Dodaj kost </button>
+ 
+ </form>
+ <div id="kostiList"></div>
+ 
+ <script src= "javaskript.js"></script>
+ </body>
+ </html>

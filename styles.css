@@ -1,0 +1,129 @@
+/* Osnovni stilovi za stranicu */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.intro {
+    padding: 30px;
+    background-color: white;
+    margin: 30px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.systems {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 30px;
+}
+
+.system {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.system img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.system ul {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.system ul li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 1.1em;
+}
+
+/* Responsivnost za mobilne uređaje */
+@media (max-width: 768px) {
+    .systems {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Dodatne stilizacije za nove sustave */
+
+/* Boja i stilovi za naslove sekcija */
+.system h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Stilizacija za odjeljke sa slikama */
+.system img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Povećanje kontrasta za tekst */
+.system ul li {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Centriranje teksta za bolje izgleda */
+.system {
+    text-align: left;
+}
+
+.system h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #2C6E49;
+}
+
+footer {
+    font-size: 1.2em;
+}

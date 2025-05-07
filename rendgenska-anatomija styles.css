@@ -1,0 +1,73 @@
+styles.css rendgenska-anatomija
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centriranje sadržaja na stranici */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f4f9f4; /* Svijetlo zelena pozadina */
+    color: #2f4f2f; /* Tamno zelena boja teksta */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Stilizacija naslova */
+h1 {
+    font-size: 4rem; /* Veliki font */
+    color: #054407; /* Svijetla zelena boja */
+    margin-bottom: 20px;
+}
+h2 {
+    font-size:30px;
+    color: #054407
+}
+/* Stilizacija paragrafa */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #3e8e41; /* Tamno zelena boja za tekst */
+    margin-bottom: 20px;
+    width: 80%; /* Ograničava širinu teksta */
+    max-width: 800px;
+    text-align: justify;
+    padding: 10px;
+    background-color: #eaf4e4; /* Pozadina u svijetloj zelenoj nijansi */
+    border-radius: 8px;
+}
+
+/* Stilizacija liste */
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+/* Stilizacija slike */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #4CAF50; /* Zeleni okvir oko slike */
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 900px; /* Ograničava širinu slike */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Blagi sjenčanje oko slike */
+}
+
+footer
+{
+    text-align: center;
+    padding: 15px 0;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 1.1em;
+}
