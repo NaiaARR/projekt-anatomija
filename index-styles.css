@@ -1,0 +1,15 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*vanjski razmak:*/
+    margin: 0;
+    /*unutarnji razmak.*/
+    padding: 0;
+    background-color: darkolivegreen;
+}
+   
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
+    color: aliceblue;
+}
