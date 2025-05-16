@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANATOMIJA</title>
+    <link rel="stylesheet"href="novi-anatomija-projekt-styles.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+
+    <!-- Meni -->
+    <nav>
+        <a href="#kontakt">Kontakt</a>
+        <a href=""javascript:void(0);" onclick="openLoginForm()">Login</a>
+
+<!--kod za aktiviranje login-->
+        <div class="overlay" id="overlay" onclick="closeLoginForm()"></div>
+        <div class="login-form" id="loginForm">
+            <h3>Prijava</h3>
+            <input type="text" placeholder="Korisničko ime" id="username">
+            <input type="password" placeholder="Lozinka" id="password">
+            <button onclick="submitLogin()">Prijavi se</button>
+            <br>
+            <a href="#" class="forgot-password">Zaboravili ste lozinku?</a>
+        </div>
+        
+        <a href="#onama">O nama</a>
+    </nav>
+
+    <!-- Naslov u centru stranice -->
+    <div class="naslov">
+        Anatomija
+    </div>
+
+    <!-- Tri kvadrata sa slikama i tekstom -->
+    <div class="kvadrati">
+        <!--kod za kada osoba klikne bio gdje na stranici otvori se link, samo ova jedna crta(div class="kvdr rend...")-->
+        <div class="kvadrat rendgenska" onclick="window.location.href='rendgenska-anatomija.html';"> 
+           <!--na classroomu sam našla ovaj kod(od početka do kraja "nav"-a)-->
+            <nav>
+                <ul>
+                <li><a href="rendgenska-anatomija.html">RENDGENSKA ANATOMIJA</a></li>
+                </ul>
+            </nav>
+<!--KRAJ KODA "nav" SA CLASSROOMA-->
+        </div>
+        <!--kraj rendgenske anatomije-->
+
+<!--početak sustavne anatomije-->
+        <div class="kvadrat sustavna" onclick="window.location.href='sustavna-anatomija.html';">
+              
+        <!--isti taj kod sa classrooma-->
+        <nav>
+            <ul>
+            <li><a href="sustavna-anatomija.html">SUSTAVNA ANATOMIJA</a></li>
+            </ul>
+        </nav>
+       </div>
+       <!--kraj sustavne anatomije-->
+
+<!--početak topografske anatomije-->
+        <div class="kvadrat topografska" onclick="window.location.href='topografska-anatomija.html';">
+        
+            <nav>
+                <ul>
+                <li><a href="topografska-anatomija.html">TOPOGRAFSKA ANATOMIJA</a></li>
+                </ul>
+            </nav>
+        </div>
+<!--kraj topografske-->
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025. Anatomija</p>
+    </footer>
+
+</body>
+</html>
